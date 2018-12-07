@@ -1,0 +1,16 @@
+version: '3'
+services:
+
+  koans-p3:
+    image: python:2.7
+    working_dir: /python-koans/python3/
+    command: python3 contemplate_koans.py
+    volumes:
+      - .:/python-koans
+
+  koans-p2:
+    image: python:2.7
+    working_dir: /python-koans/python2/
+    command: python contemplate_koans.py
+    volumes:
+      - .:/python-koans
