@@ -161,6 +161,16 @@ Once it is set up, you just run::
 
 Just modify one of the koans files and you'll see that the tests are triggered automatically. Sniffer is controlled by `scent.py`
 
+It is possible to run Python Koans with docker-compose.
+
+To Python 2 run::
+
+    $ docker-compose run koans-p2
+
+To Python 3 run::
+
+    $ docker-compose run koans-p3
+
 Getting the Most From the Koans
 -------------------------------
 
